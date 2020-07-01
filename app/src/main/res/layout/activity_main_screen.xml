@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen"
+    style="@style/AppTheme"
+    android:orientation="vertical">
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:id="@+id/hsv"
+        style="@style/AppTheme"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal"
+            style="@style/AppTheme"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="60dp"
+                android:text="KITCHEN"
+                android:textColor="#4169e1"
+
+                style="@style/AppTheme"
+                android:background="@drawable/kitchen"
+                android:fontFamily="sans-serif"
+                android:textSize="40dp"
+
+                android:longClickable="true"
+                android:id="@+id/d1"/>
+
+            <Button
+                android:longClickable="true"
+                android:id="@+id/d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/bathroom"
+                android:padding="60dp"
+                android:text="Balcony"
+                android:textColor="#4169e1"
+                android:backgroundTint="@color/cod_gray"
+                android:fontFamily="sans-serif"
+                android:textSize="40dp" />
+
+            <Button
+                android:longClickable="true"
+                android:id="@+id/Navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/detect"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="60dp"
+                android:text="DETECT SIGNS"
+
+                android:fontFamily="sans-serif"
+                android:textSize="40dp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <Button
+        android:id="@+id/Settings"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/back"
+
+        android:text=" Back"
+        android:textColor="#4169e1"
+        android:textSize="40dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/repeat"
+        android:textColor="#4169e1"
+        android:foregroundTint="#20b2aa"
+
+        android:background="@drawable/repeat"
+        style="@style/AppTheme"
+        android:text=" Repeat auditory instructions"
+        android:layout_weight="1"
+        android:textSize="40dp"
+         />
+
+</LinearLayout>

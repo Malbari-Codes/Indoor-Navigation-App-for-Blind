@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:fontFamily="@font/gotham_rounded_medium"
-            android:textColor="@color/cod_gray"
+            android:textColor="#ffffff"
             android:textSize="24sp"
             tools:text="Speed limit 80 km/h" />
 
@@ -37,7 +37,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/gotham_rounded_medium"
-            android:textColor="@color/dove_gray"
+            android:textColor="#ffffff"
             android:textSize="12sp"
             tools:text="Confidence: 80%" />
 
